@@ -1,0 +1,32 @@
+
+.ControlPanel button {
+    background-color: green;
+    color: white;
+    font: inherit; 
+    border: 1px solid blue;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.ControlPanel button:hover {
+    color: black;
+    background-color: lightgreen;
+}
+
+.ControlPanel button.Red {
+    background-color: red;
+}
+
+.ControlPanel button.Red:hover {
+    background-color: salmon;
+    color: black;
+}
+
+.ControlPanel .red {
+    color: red;
+}
+  
+.ControlPanel .bold {
+    font-weight: bold;
+}
+  

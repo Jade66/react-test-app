@@ -1,0 +1,26 @@
+
+.clickable {
+    cursor: pointer;
+  }
+
+.Person {
+    width: 60%;
+    margin: auto;
+    background-color: lightgrey;
+    border: 2px solid black;
+    box-shadow: 0 2px 3px grey;
+    padding: 16px;
+    padding-top: 5px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.Person p {
+    cursor: pointer;
+}
+
+@media(min-width:500px) {
+    .Person {
+        width: 450px;
+    }
+}
