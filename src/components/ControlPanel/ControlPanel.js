@@ -20,7 +20,7 @@ const controlPanel = (props) => {
     return (
         <div className={classes.ControlPanel}>
             <h1>{props.appTitle}</h1>
-            <p className={textClasses.join(' ')}>Some other cool text</p>
+            <p className={textClasses.join(' ')}>The BEST app!</p>
             <button onClick={props.clicked} className={buttonClass} >
             Toggle
             </button>
